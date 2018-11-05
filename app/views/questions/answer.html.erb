@@ -1,0 +1,12 @@
+<!-- display the question you ask your coach as well as his answer -->
+<div class="output-border">
+  <h3><%= @question %></h3>
+  <p>- You</p>
+</div>
+
+<div class="output-border">
+  <h3><%= @answer %></h3>
+  <p>- Your coach</p>
+</div>
+
+<%= link_to "Ask a new question", ask_path %>
